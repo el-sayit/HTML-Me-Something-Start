@@ -1,1 +1,96 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    padding: 0;
+    display: block;
+    box-sizing: border-box;
+    font-family:'Poppins', Courier, monospace;
+    background-color: rgb(247, 247, 247);
+}
+#mainHeading {
+    text-align: center;
+    padding:0,2rem;
+    
+}
+.funParagraph {
+    padding:0 3rem;
+    color: green;
+    /* color: grey; */
+}
+.heading {
+    margin-left: 3rem;
+}
+header{
+    background-color: rgb(162, 162, 162);
+    padding: 1em; 
+    box-shadow: 0px 0px 2px rgb(121, 52, 52);
+    
+}
+.nav-list{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    list-style: none;
+   
+   
+}
+.lists{
+    margin-left: 2rem;
+    list-style: square;
+}
+.list-item{
+    margin-left: 1rem;
+}
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    
+}
+.nav-list a:hover{
+    color: whitesmoke;
+    /* background-color: gray; */
+    
+}
+.nav-list:first-child{
+    color: red;
+    
+}
+footer {
+    background-color: rgb(162, 162, 162);
+    margin: 3rem 0 0;
+    padding: 1rem;
+    
+    
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-left: 3rem;
+}
+footer .footer-list{
+    display: flex;
+    list-style: none;
+    
+}
+.footer-item{
+    margin-left: 2rem;
+}
+section .img{
+    margin: 5rem auto ;
+    display: block;
+    width: 50%;
+    
+}
+main{
+    position: relative;
+}
+.btn {
+position: absolute;
+right:10%;
+top: 90%;
+
+
+}
+.btn a {
+    text-decoration: none;
+}
